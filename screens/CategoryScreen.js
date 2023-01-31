@@ -1,7 +1,7 @@
-import { View } from 'react-native';
+import { FlatList } from 'react-native';
 
-import { Categories } from '../data/dummy-data';
+import { CATEGORIES } from '../data/dummy-data';
 
 export const CategoryScreen = () => {
-  return <View></View>;
+  return <FlatList data={CATEGORIES} />;
 };
